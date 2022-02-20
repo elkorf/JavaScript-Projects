@@ -2,11 +2,11 @@
 <h2 align="center">Background color-filler using JavaScript</h2>
 <div align="center">
   <h3>
-    <a href="https://elkorf-404-not-found-devchallenges.netlify.app/">
+    <a href="https://elkorf-color-flipper.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/elkorf/Web-Dev-Challenges/tree/master/404-not-found/">
+    <a href="https://github.com/elkorf/JavaScript-Projects/tree/master/color-flipper/">
       Solution
     </a>
   </h3>
@@ -14,7 +14,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/elkorf/Web-Dev-Challenges/blob/master/404-not-found/Output-SS.PNG)
+![screenshot](https://github.com/elkorf/JavaScript-Projects/blob/master/color-flipper/Output-SS.PNG)
 
 ### Built With
 
