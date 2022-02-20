@@ -1,4 +1,3 @@
-import "./styles.css";
 var btn = document.getElementById("click-btn");
 var val = document.getElementById("color-hash");
 var color = "#ffffff";
