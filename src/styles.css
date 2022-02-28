@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f5f4;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #2e3c40;
+}
+nav {
+  height: 60px;
+  background-color: #d9e6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-info {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 170px;
+  display: flex;
+  flex-direction: row;
+}
+.description {
+  flex: 2;
+  padding: 0 10px;
+}
+.description h1 {
+  margin-top: 30px;
+  font-size: 30px;
+}
+.description p {
+  margin-top: 40px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: 2px;
+}
+.description a {
+  font-weight: bold;
+}
+.landing-img {
+  flex: 3;
+  padding-left: 100px;
+}
+.landing-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.js-projects {
+  margin-top: 30px;
+  padding-top: 10px;
+  background-color: #d9e6ff;
+}
+.js-projects h1 {
+  background-color: #d9e6ff;
+  text-align: center;
+}
+.project-container {
+  /* padding: 0 170px; */
+  background-color: #d9e6ff;
+  /* margin-top: 30px; */
+  margin-bottom: 10px;
+  padding: 40px 0;
+  display: grid;
+  row-gap: 80px;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  justify-items: center;
+}
+.project-item {
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  width: 420px;
+  overflow: none;
+  border-radius: 0.5em;
+  box-shadow: 0 1.5em 2.5em -0.5em rgba(#000000, 0.1);
+  transition: transform 0.45s ease, background 0.45s ease;
+}
+.project-preview img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5em 0.5em 0 0;
+  object-fit: fill;
+}
+.project-title {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #838fd5;
+  border-radius: 0 0 0.5em 0.5em;
+}
+.project-item:hover {
+  transform: scale(1.1);
+}
+.project-title h2 {
+  color: white;
+  background-color: transparent;
+}
+.footer {
+  width: 100%;
+  bottom: 0;
+  /* position: fixed; */
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* color: #6f6f71; */
+}
+#user-name {
+  background-color: transparent;
+}
+@media (max-width: 1200px) {
+  .landing-info {
+    flex-direction: column;
+    padding: 0;
+  }
+  .landing-img {
+    padding: 50px 10px 0px 10px;
+  }
+  .description h1 {
+    margin-top: 0;
+  }
+}
