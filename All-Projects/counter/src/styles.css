@@ -15,28 +15,32 @@ body {
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   text-align: center;
   border-radius: 7px;
+  text-transform: uppercase;
 }
 .main {
-  margin-top: 20vh;
+  margin-top: 15vh;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.color-name {
-  color: white;
-  background-color: rgb(48, 46, 46);
+.count {
+  color: rgb(48, 46, 46);
+  background-color: white;
+  font-size: 100px;
+}
+.buttons {
+  margin-top: 60px;
   display: flex;
-  padding: 13px 20px;
-  border-radius: 7px;
-  letter-spacing: 2px;
+  width: 400px;
+  justify-content: space-around;
 }
 .change-button {
   color: black;
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 2px;
   cursor: pointer;
-  margin-top: 30px;
   padding: 14px 12px;
   background-color: transparent;
   border-radius: 8px;

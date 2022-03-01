@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <title>Counter</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="icon" href="./src/js-logo.svg" type="image/icon type" />
+    <link href="./src/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    Hello
+    <div class="title">
+      <h1>Counter</h1>
+    </div>
+    <div class="main">
+      <h2 class="count" id="count"></h2>
+      <div class="buttons">
+        <button class="change-button" id="inc-btn">
+          Increase
+        </button>
+        <button class="change-button" id="reset-btn">
+          Reset
+        </button>
+        <button class="change-button" id="des-btn">
+          Decrease
+        </button>
+      </div>
+    </div>
+    <div class="footer">
+      <div id="user-name">
+        <span>created by <strong>elkorf</strong> - JavaScript Projects</span>
+      </div>
+    </div>
   </body>
+  <script src="./src/index.js"></script>
 </html>
