@@ -14,7 +14,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/elkorf/JavaScript-Projects/edit/master/All-Projects/color-flipper/Output-SS.PNG)
+![screenshot](https://github.com/elkorf/JavaScript-Projects/blob/master/All-Projects/color-flipper/Output-SS.PNG)
 
 ### Built With
 
