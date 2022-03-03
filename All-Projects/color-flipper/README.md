@@ -6,7 +6,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/elkorf/JavaScript-Projects/edit/master/All-Projects/color-flipper/">
+    <a href="https://github.com/elkorf/JavaScript-Projects/tree/master/All-Projects/color-flipper/">
       Solution
     </a>
   </h3>
