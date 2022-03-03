@@ -6,7 +6,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/elkorf/JavaScript-Projects">
+    <a href="https://github.com/elkorf/JavaScript-Projects/">
       Solution
     </a>
   </h3>
