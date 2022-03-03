@@ -1,5 +1,3 @@
-# Projects using HTML, CSS and JavaScript
-
 <h1 align="center">JavaScript Projects [Root Project]</h1>
 <h2 align="center">Projects using HTML, CSS and JavaScript</h2>
 <div align="center">
