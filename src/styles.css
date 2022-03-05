@@ -9,7 +9,14 @@
   text-decoration: none;
   color: #2e3c40;
 }
+header::after {
+  background: linear-gradient(white, rgba(255, 255, 255, 0.3));
+  top: 0;
+  z-index: 2;
+}
 nav {
+  position: sticky;
+  top: 0;
   padding: 0 5%;
   height: 60px;
   background-color: #d9e6ff;
@@ -20,8 +27,8 @@ nav {
 nav a {
   text-transform: uppercase;
   background-color: #d9e6ff !important;
-  margin-right: 40px;
-  padding: 10px 20px;
+  margin-right: 20px;
+  padding: 10px 10px;
   transition: 0.4s;
 }
 nav a:hover {
@@ -77,7 +84,7 @@ nav a:hover {
 .project-container {
   /* padding: 0 170px; */
   background-color: #d9e6ff;
-  /* margin-top: 30px; */
+  margin-top: 30px;
   margin-bottom: 10px;
   padding: 40px 0;
   display: grid;
@@ -143,5 +150,20 @@ nav a:hover {
   }
   .description h1 {
     margin-top: 0;
+  }
+  .project-container {
+    row-gap: 50px;
+  }
+}
+@media (max-width: 490px) {
+  .project-item {
+    height: 230px;
+    width: 350px;
+  }
+  .project-title h2 {
+    font-size: 15px;
+  }
+  .js-projects h1 {
+    font-size: 20px;
   }
 }
