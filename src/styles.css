@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
 * {
   margin: 0;
@@ -8,6 +8,11 @@
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: #2e3c40;
+}
+header::after {
+  background: linear-gradient(white, rgba(255, 255, 255, 0.3));
+  top: 0;
+  z-index: 2;
 }
 nav {
   position: sticky;
@@ -77,7 +82,9 @@ nav a:hover {
   text-align: center;
 }
 .project-container {
+  /* padding: 0 170px; */
   background-color: #d9e6ff;
+  margin-top: 30px;
   margin-bottom: 10px;
   padding: 40px 0;
   display: grid;
@@ -139,36 +146,19 @@ nav a:hover {
     padding: 0;
   }
   .landing-img {
-    display: none;
+    padding: 50px 10px 0px 10px;
   }
   .description h1 {
     margin-top: 0;
   }
   .project-container {
-    row-gap: 30px;
+    row-gap: 50px;
   }
 }
-@media (max-width: 450px) {
-  nav a {
-    font-size: 15px;
-    margin-right: 5px;
-  }
-  .description h1 {
-    margin-top: 0px;
-    font-size: 28px;
-  }
-  .description p {
-    margin-top: 20px;
-    font-size: 20px;
-  }
-  .project-container {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 490px) {
   .project-item {
-    /* height: 170px; */
-    /* width: 250px; */
-    height: 70vw;
-    width: 90%;
+    height: 230px;
+    width: 350px;
   }
   .project-title h2 {
     font-size: 15px;
