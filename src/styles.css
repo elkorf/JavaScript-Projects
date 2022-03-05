@@ -82,9 +82,7 @@ nav a:hover {
   text-align: center;
 }
 .project-container {
-  /* padding: 0 170px; */
   background-color: #d9e6ff;
-  margin-top: 30px;
   margin-bottom: 10px;
   padding: 40px 0;
   display: grid;
@@ -148,17 +146,34 @@ nav a:hover {
   .landing-img {
     padding: 50px 10px 0px 10px;
   }
+  .landing-img {
+    display: none;
+  }
   .description h1 {
     margin-top: 0;
   }
   .project-container {
-    row-gap: 50px;
+    row-gap: 30px;
   }
 }
-@media (max-width: 490px) {
+@media (max-width: 450px) {
+  .description h1 {
+    margin-top: 0px;
+    font-size: 28px;
+  }
+  .description p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .project-container {
+    grid-template-columns: 1fr;
+  }
+  nav a {
+    margin-right: 5px;
+  }
   .project-item {
-    height: 230px;
-    width: 350px;
+    height: 170px;
+    width: 250px;
   }
   .project-title h2 {
     font-size: 15px;
