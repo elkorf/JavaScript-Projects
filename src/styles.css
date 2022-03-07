@@ -96,13 +96,49 @@ nav a:hover {
   transition: transform 0.45s ease, background 0.45s ease;
 }
 .project-preview {
+  position: relative;
   height: 80%;
+  border-radius: 0.5em 0.5em 0 0;
 }
 .project-preview img {
   height: 100%;
   width: 100%;
   border-radius: 0.5em 0.5em 0 0;
   object-fit: cover;
+}
+.test {
+  position: absolute;
+  background-color: transparent;
+  /* top: 75%; */
+  bottom: 2px;
+  width: 100%;
+  border: 2px solid red;
+}
+.test button {
+  padding: 15px 20px;
+  background-color: transparent;
+
+  font-size: 20px;
+  border-radius: 5px;
+  width: 49.5%;
+  border: none;
+  transition: 0.45s;
+  outline: none;
+  text-transform: uppercase;
+}
+.test button:hover {
+  background-color: rgb(54, 53, 53);
+  color: rgb(218, 218, 218);
+  border-color: white;
+  border: 2px solid black;
+}
+.test:hover {
+  border: none;
+}
+.project-preview:hover img {
+  opacity: 0.6;
+  transition: 0.45s;
+  /* background: rgba(0, 0, 0, 0.3); */
 }
 .project-title {
   display: flex;
