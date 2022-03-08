@@ -106,39 +106,41 @@ nav a:hover {
   border-radius: 0.5em 0.5em 0 0;
   object-fit: cover;
 }
-.test {
+.demo-code {
+  opacity: 0;
   position: absolute;
   background-color: transparent;
-  /* top: 75%; */
-  bottom: 2px;
+  bottom: 5px;
   width: 100%;
-  border: 2px solid red;
+  border: 1px solid black;
+  border-radius: 5px;
 }
-.test button {
+.demo-code a {
+  background-color: transparent;
+}
+.demo-code button {
   padding: 15px 20px;
   background-color: transparent;
-
+  cursor: pointer;
   font-size: 20px;
-  border-radius: 5px;
   width: 49.5%;
   border: none;
   transition: 0.45s;
   outline: none;
   text-transform: uppercase;
+  border-radius: 5px;
 }
-.test button:hover {
-  background-color: rgb(54, 53, 53);
-  color: rgb(218, 218, 218);
-  border-color: white;
-  border: 2px solid black;
+.demo-code button:hover {
+  background-color: #838fd5;
+  color: white;
 }
-.test:hover {
-  border: none;
-}
-.project-preview:hover img {
-  opacity: 0.6;
+.project-item:hover img {
+  opacity: 0.8;
   transition: 0.45s;
-  /* background: rgba(0, 0, 0, 0.3); */
+}
+.project-item:hover .demo-code {
+  opacity: 1;
+  transition: 0.45s;
 }
 .project-title {
   display: flex;
@@ -211,5 +213,8 @@ nav a:hover {
   }
   .js-projects h1 {
     font-size: 20px;
+  }
+  .demo-code {
+    display: none;
   }
 }
