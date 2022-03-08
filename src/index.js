@@ -23,9 +23,13 @@ window.addEventListener("DOMContentLoaded", async function (e) {
           alt=""
           srcset=""
         />
-        <div class="test">
-          <button>Demo</button>
-          <button>Code</button>
+        <div class="demo-code">
+          <a href=` +
+        path +
+        `><button>Demo</button></a>
+          <a href=` +
+        path +
+        `><button>Code</button></a>
         </div>
       </div>
       <div class="project-title"><h2>` +
