@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", async function (e) {
         path +
         `><button>Demo</button></a>
           <a href=` +
-        path +
+        result[i].html_url +
         `><button>Code</button></a>
         </div>
       </div>
