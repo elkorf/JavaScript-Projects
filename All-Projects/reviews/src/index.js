@@ -19,7 +19,8 @@ window.addEventListener("DOMContentLoaded", async function (e) {
     reviewProfile.src = chk.substring(0, chk.lastIndexOf(".")) + ".jpg";
 
     Name = result[0].name;
-    // reviewerName.innerText = Name.substring(0, Name.lastIndexOf(".")) + "";
+    Name = Name.replace("-"," ");
+    reviewerName.innerText = Name.substring(0, Name.lastIndexOf(".")) + "";
   } catch (err) {
     return console.log(err);
   }
@@ -32,6 +33,7 @@ next.onclick = async () =>{
     let chk = img_str+result[(counter)%4].name;
     reviewProfile.src = chk.substring(0, chk.lastIndexOf(".")) + ".jpg";
     Name = result[(counter)%4].name;
+    Name = Name.replace("-"," ");
     reviewerName.innerText = Name.substring(0, Name.lastIndexOf(".")) + "";
   }
 }
@@ -46,5 +48,6 @@ prev.onclick = async () =>{
   let chk = img_str+result[(counter)%4].name;
     reviewProfile.src = chk.substring(0, chk.lastIndexOf(".")) + ".jpg";
     Name = result[(counter)%4].name;
+    Name = Name.replace("-"," ");
     reviewerName.innerText = Name.substring(0, Name.lastIndexOf(".")) + "";
 }

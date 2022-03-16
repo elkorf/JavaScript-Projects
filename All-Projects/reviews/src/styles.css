@@ -60,6 +60,9 @@ figcaption {
   transition: 0.45s;
   letter-spacing: 2px;
 }
+#reviewer-name{
+  text-transform: capitalize;
+}
 figcaption a{
   font-size: 13px;
   letter-spacing: 1px;
