@@ -93,7 +93,7 @@ nav a:hover {
   overflow: none;
   border-radius: 0.5em;
   box-shadow: 0 1.5em 2.5em -0.5em rgba(#000000, 0.1);
-  transition: transform 0.45s ease, background 0.45s ease;
+  transition: all 0.3s linear;
 }
 .project-preview {
   position: relative;
@@ -109,11 +109,13 @@ nav a:hover {
 .demo-code {
   opacity: 0;
   position: absolute;
-  background-color: transparent;
-  bottom: 5px;
+  background-color: #9aa2d66b;
+  bottom: -40px;
   width: 100%;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 2px solid black;
+  /* border-radius: 5px; */
+  transition: all 0.3s linear;;
+  border: none;
 }
 .demo-code a {
   background-color: transparent;
@@ -125,13 +127,14 @@ nav a:hover {
   font-size: 20px;
   width: 49.5%;
   border: none;
-  transition: 0.45s;
+  transition: 0.3s;
   outline: none;
   text-transform: uppercase;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  /* background-color: white; */
 }
 .demo-code button:hover {
-  background-color: #838fd5;
+  background-color: rgb(54, 55, 58);
   color: white;
 }
 .project-item:hover img {
@@ -140,7 +143,8 @@ nav a:hover {
 }
 .project-item:hover .demo-code {
   opacity: 1;
-  transition: 0.45s;
+  /* transition: 0.3s; */
+  bottom: 0;
 }
 .project-title {
   display: flex;
