@@ -2,7 +2,7 @@
 <h2 align="center">Background Color-Flipper using JavaScript</h2>
 <div align="center">
   <h3>
-    <a href="https://elkorf-color-flipper.netlify.app/">
+    <a href="https://elkorf-javascript-projects.netlify.app/all-projects/color-flipper/">
       Demo
     </a>
     <span> | </span>
