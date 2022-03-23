@@ -2,7 +2,7 @@
 <h2 align="center">Counter using JavaScript</h2>
 <div align="center">
   <h3>
-    <a href="https://elkorf-counter.netlify.app/">
+    <a href="https://elkorf-javascript-projects.netlify.app/all-projects/counter/">
       Demo
     </a>
     <span> | </span>
