@@ -2,7 +2,7 @@
 <h2 align="center">Review Portal</h2>
 <div align="center">
   <h3>
-    <a href="https://elkorf-reviews.netlify.app/">
+    <a href="https://elkorf-javascript-projects.netlify.app/all-projects/reviews/">
       Demo
     </a>
     <span> | </span>
