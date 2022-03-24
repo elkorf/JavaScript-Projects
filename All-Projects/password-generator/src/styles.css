@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+button{
+  cursor: pointer;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  background-color: rgb(244 245 255);
+}
+.main h1 {
+  font-size: 35px;
+  color: #1d4697;
+  border-bottom: 2px solid #85aaf5;
+  transition: 0.45s;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.main h1:hover {
+  border-color: #283b63;
+}
+.main .card{
+  margin-top: 150px;
+  height: 200px;
+  width: 450px;
+  background-color: white;
+  display: flex;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.card-element{
+  display: flex;
+  width: 80%;
+  position: relative;
+}
+.card-element input,button{
+  border: 2px solid #bdbded;
+  outline: none;
+  border-radius:5px ;
+  transition: all .4s;
+}
+.card-element input{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+  border-radius: 5px 0px 0px 5px;
+  padding: 5px 20px;
+  width: 100%;
+  text-align: center; 
+  border-right: none;
+  background-color: #fff;
+  box-shadow: inset 0px 0px 2px rgb(0 0 0 / 32%), 0px -1px 0px #fff, 0 1px 0 #fff;
+}
+.card-element button{
+  padding: 5px 10px;
+}
+.card-element .copy{
+  border-radius: 0px 5px 5px 0px;
+  border-left: none;
+  background-color: #d3d3fc26;
+  background-color: white;
+  margin-left: -1px;
+  box-shadow: inset 0px 0px 15px rgb(0 0 0 / 32%), 0px -1px 0px #fff, 0 1px 0 #fff;
+}
+.card-element img{
+  width: 25px;
+  width: 25px;
+}
+.card-element .generate{
+  background-color: white;
+  margin-left: 10px;
+  box-shadow: inset 0px 0px 8px rgb(0 0 0 / 32%), 0px -1px 0px #fff, 0 1px 0 #fff;
+  transition: all .4s;
+}
+.card-element .copy:hover, .generate:hover{
+  box-shadow: inset 0px 0px 4px rgb(0 0 0 / 32%), 0px -1px 0px #fff, 0 1px 0 #fff;
+  background-color: white;
+}
+.card-element .copy:active, .generate:active{
+  background-color: #d4d9ff;
+}
+.card-element .tooltip{
+  opacity: 0;
+  position: absolute;    
+  top: 55px;
+  right: 10px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  z-index: 1;
+  transition: all .4s;
+  background-color: #d6d6d6;
+  color: #5e4994;
+}
+.card-element .copy:hover ~ #tooltip{
+  opacity: 1;
+}
+.footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: 17px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6f71;
+}
+
+@media (max-width: 460px) {
+  .main h1{
+    margin-top: 100px;
+    font-size: 20px;
+    border: none;
+  }
+  .main .card{
+    margin-top: 100px;
+    width: 90%;
+  }
+}
