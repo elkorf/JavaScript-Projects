@@ -14,7 +14,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/elkorf/JavaScript-Projects/blob/Output-SS.PNG)
+![screenshot](https://github.com/elkorf/JavaScript-Projects/blob/master/Output-SS.PNG)
 
 ### Built With
 
