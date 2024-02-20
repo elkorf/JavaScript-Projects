@@ -1,15 +1,9 @@
-<h1 align="center">JavaScript Projects [Root Project]</h1>
-<h2 align="center">Projects using HTML, CSS and JavaScript</h2>
+# JavaScript Projects [Root Project]
+
+## Projects using HTML, CSS and JavaScript
+
 <div align="center">
-  <h3>
-    <a href="https://elkorf-javascript-projects.netlify.app/">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://github.com/elkorf/JavaScript-Projects/">
-      Solution
-    </a>
-  </h3>
+  ### [Demo](https://elkorf-javascript-projects.netlify.app/) | [Solution](https://github.com/elkorf/JavaScript-Projects/)
 </div>
 
 ## Overview
